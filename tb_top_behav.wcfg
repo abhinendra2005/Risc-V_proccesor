@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="9.781 ns"></ZoomEndTime>
+      <Cursor1Time time="16.900 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="196"></NameColumnWidth>
+      <ValueColumnWidth column_width="143"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/PC_top" type="array">
+      <obj_property name="ElementShortName">PC_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_top[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/instruction_top" type="array">
+      <obj_property name="ElementShortName">instruction_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/Rd1_top" type="array">
+      <obj_property name="ElementShortName">Rd1_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd1_top[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/Rd2_top" type="array">
+      <obj_property name="ElementShortName">Rd2_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd2_top[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/ImmExt_top" type="array">
+      <obj_property name="ElementShortName">ImmExt_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExt_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/mux1_top" type="array">
+      <obj_property name="ElementShortName">mux1_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux1_top[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/Sum_out_top" type="array">
+      <obj_property name="ElementShortName">Sum_out_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Sum_out_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/NextPC_top" type="array">
+      <obj_property name="ElementShortName">NextPC_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NextPC_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/PCin_top" type="array">
+      <obj_property name="ElementShortName">PCin_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCin_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/ALU_Result_top" type="array">
+      <obj_property name="ElementShortName">ALU_Result_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Result_top[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/Memdata_top" type="array">
+      <obj_property name="ElementShortName">Memdata_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Memdata_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/write_data_top" type="array">
+      <obj_property name="ElementShortName">write_data_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data_top[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/RegWrite_top" type="logic">
+      <obj_property name="ElementShortName">RegWrite_top</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/ALUSrc_top" type="logic">
+      <obj_property name="ElementShortName">ALUSrc_top</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/branch_top" type="logic">
+      <obj_property name="ElementShortName">branch_top</obj_property>
+      <obj_property name="ObjectShortName">branch_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/zero_top" type="logic">
+      <obj_property name="ElementShortName">zero_top</obj_property>
+      <obj_property name="ObjectShortName">zero_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/selline2_top" type="logic">
+      <obj_property name="ElementShortName">selline2_top</obj_property>
+      <obj_property name="ObjectShortName">selline2_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/MemtoReg_top" type="logic">
+      <obj_property name="ElementShortName">MemtoReg_top</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/Memwrite_top" type="logic">
+      <obj_property name="ElementShortName">Memwrite_top</obj_property>
+      <obj_property name="ObjectShortName">Memwrite_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/Memread_top" type="logic">
+      <obj_property name="ElementShortName">Memread_top</obj_property>
+      <obj_property name="ObjectShortName">Memread_top</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/ALUOp_top" type="array">
+      <obj_property name="ElementShortName">ALUOp_top[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp_top[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/control_top" type="array">
+      <obj_property name="ElementShortName">control_top[3:0]</obj_property>
+      <obj_property name="ObjectShortName">control_top[3:0]</obj_property>
+   </wvobject>
+</wave_config>
